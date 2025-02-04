@@ -1,0 +1,45 @@
+$ git -v
+git version 2.47.0.windows.2
+
+$ mkdir prj1
+
+$ cd prj1
+
+$ git init
+Initialized empty Git repository in C:/Users/Balachander/prj1/.git/
+
+$ notepad read.txt
+
+$ git status
+
+$ git add read.txt
+
+$ git add .
+
+$ git log
+commit 3c0037d2f09c436e17df757f92ebd6989b9a60db (HEAD -> master)
+Author: Balachandran <kanagarajbalu87@gmail.com>
+Date:   Thu Dec 26 14:05:41 2024 +0530
+
+    devops commit // this was typed by me when giving commit statement
+
+$ git -m"jrjg"
+
+$ git branch fileName.txt
+
+$ git checkout -b read.txt
+fatal: a branch named 'read.txt' already exists
+
+$ git checkout -b feature
+Switched to a new branch 'feature'
+
+$ git checkout master
+Switched to branch 'master'
+
+$ git branch -d feature2
+Deleted branch feature2 (was 3c0037d).
+
+$ git branch
+  feature
+* master
+
