@@ -42,5 +42,3 @@ Deleted branch feature2 (was 3c0037d).
 $ git branch
   feature
 * master
-
-abcde
